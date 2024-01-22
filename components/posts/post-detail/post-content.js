@@ -7,6 +7,7 @@ import css from 'react-syntax-highlighter/dist/cjs/languages/prism/css';
 
 import PostHeader from './post-header';
 import classes from './post-content.module.css';
+import PostEditor from '../PostEditor';
 
 SyntaxHighlighter.registerLanguage('js', js);
 SyntaxHighlighter.registerLanguage('css', css);
@@ -40,7 +41,7 @@ function PostContent(props) {
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.properties.alt}
               width={600}
-              height={300}
+              height={400}
             />
           </div>
         );
@@ -71,6 +72,7 @@ function PostContent(props) {
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
+      {/* <PostEditor content={post.content} /> */}
     </article>
   );
 }

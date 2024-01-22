@@ -14,6 +14,9 @@ function MainNavigation() {
           <li>
             <Link href="/posts">Posts</Link>
           </li>
+          {/* <li>
+            <Link href="/posts/edit">New Post</Link>
+          </li> */}
           <li>
             <Link href="/contact">Contact</Link>
           </li>
