@@ -14,7 +14,7 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   overflow: hidden;
-  background-color: var(--color-grey-700);
+  background-color: var(--color-grey-500);
   margin: auto;
 }
 
