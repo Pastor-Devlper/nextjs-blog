@@ -1,7 +1,7 @@
 ---
 title: '하루 첫 커피는 9시 반 이후'
 date: '2024-1-21'
-image: coffee-day-first.jpg
+image: /images/posts/coffee-day-first/coffee-day-first.jpg
 excerpt: 오전 9시 30분 이후부터 하루 한잔~한잔 반 정도 유익...마지막 커피는 잠자기 6시간 전
 isFeatured: true
 ---

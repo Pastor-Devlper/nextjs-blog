@@ -11,7 +11,9 @@ const MDEditor = dynamic(() => import('@uiw/react-md-editor'), { ssr: false });
 
 function PostEditor(props) {
   const content = props.content;
-  const [value, setValue] = useState();
+  const setValue = props.setMdData;
+  const value = props.mdData;
+  // const [value, setValue] = useState();
 
   useEffect(() => {
     if (content) {

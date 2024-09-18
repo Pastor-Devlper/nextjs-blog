@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 
 import FeaturedPosts from '../components/home-page/featured-posts';
 import Hero from '../components/home-page/hero';
-import { getFeaturedPosts } from '../lib/posts-util';
+import { getFeaturedPosts } from '../lib/db-util';
 import Head from 'next/head';
 
 function HomePage(props) {
@@ -21,8 +21,8 @@ function HomePage(props) {
   );
 }
 
-export function getStaticProps() {
-  const featuredPosts = getFeaturedPosts();
+export async function getStaticProps() {
+  const featuredPosts = await getFeaturedPosts();
   // console.log(featuredPosts);
 
   return {

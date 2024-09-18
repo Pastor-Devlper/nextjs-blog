@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import AllPosts from '../../components/posts/all-posts';
-import { getAllPosts } from '../../lib/posts-util';
+import { getAllPosts } from '../../lib/db-util';
 import Head from 'next/head';
 
 function AllPostsPage(props) {
@@ -18,8 +18,8 @@ function AllPostsPage(props) {
   );
 }
 
-export function getStaticProps() {
-  const allPosts = getAllPosts();
+export async function getStaticProps() {
+  const allPosts = await getAllPosts();
 
   return {
     props: {

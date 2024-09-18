@@ -4,7 +4,7 @@ import Link from 'next/link';
 import classes from './post-item.module.css';
 
 function PostItem(props) {
-  const { title, image, excerpt, date, slug } = props.post;
+  const { title, thumnail, excerpt, date, postId, slug } = props.post;
 
   const formattedDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -12,8 +12,10 @@ function PostItem(props) {
     year: 'numeric',
   });
 
-  const imagePath = `/images/posts/${slug}/${image}`;
-  const linkPath = `/posts/${slug}`;
+  // const imagePath = `/images/posts/${slug}/${image}`;
+  // const linkPath = `/posts/${slug}`;
+  const imagePath = thumnail;
+  const linkPath = `/posts/${slug ? slug : postId}`;
 
   return (
     <li className={classes.post}>
