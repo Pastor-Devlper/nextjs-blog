@@ -13,9 +13,9 @@ function Hero() {
           height={300}
         />
       </div>
-      <h1>Hi, I'm Sim</h1>
+      <h1>Hi, I'm Pastor Sim</h1>
       <p>
-        I blog about web development - especially frontend frameworks like
+        I blog about Christianity, Daily life, web development - especially frontend frameworks like
         Next.js or React.
       </p>
     </section>
