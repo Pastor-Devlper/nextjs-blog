@@ -35,4 +35,4 @@ isFeatured: true
 [27 Day117 잠언 12-15장](https://youtu.be/RSsjAlRsjow)  
 [28 Day118 열왕기상 7-8장](https://youtu.be/DbA0ConEpZE)  
 [29 Day119 열왕기상 9-11장](https://youtu.be/xLATQ5huyAo)  
-[30 Day110 (시편 58편, 61-62, 64-67편)](https://youtu.be/RZv0W9eAw14)  
+[30 Day120 (시편 58편, 61-62, 64-67편)](https://youtu.be/RZv0W9eAw14)  
