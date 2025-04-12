@@ -1,7 +1,7 @@
 ---
 title: '1년 1독 성경 읽기 6'
 date: '2025-6-2'
-image: 'day-reading-bible-05.jpg'
+image: 'day-reading-bible-06.jpg'
 excerpt: '(이사야 18~66장), (미가), (나훔), 열왕기하 21:1~24:17, (스바냐), (예레미야끼워 읽기), (하박국)'
 isFeatured: true
 ---
@@ -19,7 +19,7 @@ isFeatured: true
 [11 Day 162 (사 49~51장)](https://youtu.be/jsg4V1MPMtY)  
 [12 Day 163 (사 52~54장)](https://youtu.be/dFWVNVJB-TI)  
 [13 Day 164 (사 55~59장)](https://youtu.be/kdHhc6eLDGU)  
-[14 Day 165 (사 60~63X)](https://youtu.be/ytIrty7eAoM)  
+[14 Day 165 (사 60~63장)](https://youtu.be/ytIrty7eAoM)  
 [15 Day 166 (사 64~66장)](https://youtu.be/7PEdeE3rXbM)  
 [16 Day 167 왕하 21:19~23:30](https://youtu.be/MqBUupzXpkQ)  
 [17 Day 168 (나 1~3장)](https://youtu.be/PA02jAywN1A)  
